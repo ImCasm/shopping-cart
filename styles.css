@@ -23,14 +23,14 @@ nav ul li {
 }
 
 nav > ul > li > a {
-    display: block;
+    display: inline-block;
     padding: 5px 80px;
     text-decoration: none;
     font-size: 20px;
     color: whitesmoke;
 }
 
-nav > ul > li > a:hover {
+nav > ul > li:hover .a-menu {
     background: rgb(255, 255, 255);
     color: rgb(44, 43, 43);
 }

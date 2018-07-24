@@ -17,11 +17,11 @@
     </header>
     <nav>
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Cursos</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a class="a-menu" href="#">Inicio</a></li>
+            <li><a class="a-menu" href="#">Cursos</a></li>
+            <li><a class="a-menu" href="#">Contacto</a></li>
             <li id="carrito">
-                <table id="lista-carrito" class="u-full-width">
+                <table id="lista-carrito">
                     <thead>
                         <tr>
                             <th>Nombre</th>
@@ -30,20 +30,10 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>Mobile Development</td>
-                            <td>$300,000</td>
-                            <td><a href="#">Eliminar</a></td>
-                        </tr>
-                        <tr>
-                            <td>Big Data</td>
-                            <td>$300,000</td>
-                            <td><a href="#">Eliminar</a></td>
-                        </tr>
                     </tbody>
                 </table>
-                <a href="#"> 
-                    Carrito (<span>2</span>) <span class="fa fa-shopping-cart"></span>
+                <a class="a-menu" href="#"> 
+                    Carrito (<span id="cont-car">0</span>) <span class="fa fa-shopping-cart"></span>
                 </a>
             </li>
         </ul>
@@ -53,13 +43,12 @@
             <div class="content">
                 <a href="#">
                     <img src="http://bit.ly/2Fj8CPb" alt="ML">
-                    <h3>Machine Learning Curse</h3>
+                    <h3 class="curse-name">Machine Learning Curse</h3 class="curse-name">
                 </a>
                 <div class="card">
-                        <!--<button>Add to Car</button>-->
-                        <button class="fa fa-2x fa-cart-plus"></button>
-                        <span class="price">$300,000</span>
-                    </div>
+                    <button class="add-car fa fa-2x fa-cart-plus"></button>
+                    <span class="price">$300,000</span>
+                </div>
             </div>
         </article>  
 
@@ -67,12 +56,12 @@
             <div class="content">
                 <a href="#">
                     <img src="http://bit.ly/2oJOTxp" alt="ML">
-                    <h3>Big Data Curse</h3>
+                    <h3 class="curse-name">Big Data Curse</h3 class="curse-name">
                 </a>
                 <div class="card">
-                        <button class="fa fa-2x fa-cart-plus"></button>
-                        <span class="price">$300,000</span>
-                    </div>
+                    <button class="add-car fa fa-2x fa-cart-plus"></button>
+                    <span class="price">$300,000</span>
+                </div>
             </div>
         </article>  
 
@@ -80,10 +69,10 @@
             <div class="content">
                 <a href="#">
                     <img src="https://taazaa.com/wp-content/uploads/2017/05/IoT-3.3.png" alt="ML">
-                    <h3>Internet of Things Curse</h3>
+                    <h3 class="curse-name">Internet of Things Curse</h3 class="curse-name">
                 </a>
                 <div class="card">
-                        <button class="fa fa-2x fa-cart-plus"></button>
+                        <button class="add-car fa fa-2x fa-cart-plus"></button>
                         <span class="price">$300,000</span>
                     </div>
             </div>
@@ -93,10 +82,10 @@
             <div class="content">
                 <a href="#">
                     <img src="http://www.websuresolutions.com/blog/wp-content/uploads/2018/05/Web-development-designing-Anvar-Freelancer-1.png" alt="ML">
-                    <h3>Web Development</h3>
+                    <h3 class="curse-name">Web Development</h3 class="curse-name">
                 </a>
                 <div class="card">
-                        <button class="fa fa-2x fa-cart-plus"></button>
+                        <button class="add-car fa fa-2x fa-cart-plus"></button>
                         <span class="price">$300,000</span>
                     </div>
             </div>
@@ -106,10 +95,10 @@
             <div class="content">
                 <a href="#">
                     <img src="https://www.ibm.com/blogs/bluemix/wp-content/uploads/2017/11/Mobile_Dashboard.png" alt="ML">
-                    <h3>Mobile Development</h3>
+                    <h3 class="curse-name">Mobile Development</h3 class="curse-name">
                 </a>
                 <div class="card">
-                        <button class="fa fa-2x fa-cart-plus"></button>
+                        <button class="add-car fa fa-2x fa-cart-plus"></button>
                         <span class="price">$300,000</span>
                     </div>
             </div>
@@ -119,14 +108,15 @@
             <div class="content">
                 <a href="#">
                     <img src="https://goo.gl/qDWS2J" alt="ML">
-                    <h3>Cloud Computing</h3>
+                    <h3 class="curse-name">Cloud Computing</h3 class="curse-name">
                 </a>
                 <div class="card">
-                        <button class="fa fa-2x fa-cart-plus"></button>
+                        <button class="add-car fa fa-2x fa-cart-plus"></button>
                         <span class="price">$300,000</span>
                     </div>
             </div>
         </article>
     </section>
+    <script src="js/script.js"></script>
 </body>
 </html>
